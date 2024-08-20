@@ -135,3 +135,16 @@ nav a:hover {
     font-size: 16px;
     padding: 24px 0;
 }
+
+@media screen and (max-width: 780px){
+	nav ul li{
+		display: block;
+		margin: 10px 0;
+	}
+main {
+	padding: 10px;
+}
+h1{
+	font-size: 1.8em;
+}
+h2{
