@@ -215,3 +215,31 @@
     </footer>
     </body>
     </html>
+@media (min-width: 600px) {
+    .video-section, .text-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-section {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .video-section, .text-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .video-section {
+        flex: 1;
+        margin-right: 1rem;
+    }
+
+    .text-section {
+        flex: 2;
+    }
+}
