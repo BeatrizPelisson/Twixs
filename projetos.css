@@ -178,3 +178,79 @@ nav a:hover {
 }
 
 
+.section-content {
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    background-color: transparent;
+    margin: 10px auto;
+    overflow: none;
+    padding: 20px;
+    border: 1px solid rgb(249, 247, 247);
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+    z-index: 4;
+  }
+  
+
+  .section-content-contato {
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    margin: 10px auto;
+    background: linear-gradient(180deg, );
+    border: 1px;
+    border: solid rgb(255, 234, 234);
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+    z-index: 4;
+    color: #000000;
+  }
+
+  .section-content video{
+    background-color: rgb(2, 21, 27);
+    border:2px  solid white;
+    border-radius: 10px;
+    width: 24%;
+    height: 700px ;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .section-content video:hover{
+    box-shadow: #474646 0 0 33px;
+    background: radial-gradient( #031e31 10%, #051234 100%) ;
+    border: 1%;
+    border: solid white;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    transform: scale(95%);
+    
+  }
+
+  
+  .ft-projetos{
+    background-color: rgb(2, 21, 27);
+    margin-left: 1%;
+    align-items: center;
+    border: 2px;
+    border: solid var(--borda);
+    border-radius: 12%;
+    width: 30%;
+    height: 30%;
+    transition: all 0.4s ease;
+  }
+
+  
+  .ft-projetos:hover {
+    background: radial-gradient( #03053e 50%, #03174b 100%) ;
+    margin-left: 1%;
+    align-items: center;
+    border: 2px;
+    border: solid var(--borda);
+    border-radius: 8%;
+    transform: scale(1.5);
+    z-index: 11;
+    image-rendering:crisp-edges;
+  }
